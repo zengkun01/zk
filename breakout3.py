@@ -143,7 +143,7 @@ while running:
 
         # Update power-ups' positions (simulate falling)
         for power_up in power_ups[:]:
-            power_up.y += 1  # Speed of falling power-ups
+            power_up.y += 0.2  # Speed of falling power-ups
             if power_up.y > screen_height:
                 power_ups.remove(power_up)  # Remove power-up if it falls off screen
 
